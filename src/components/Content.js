@@ -1,10 +1,11 @@
 import React from 'react';
+import image from './../..assets/img-1.jpg';
 
 const Content = () => {
   return (
     <>
       <div className="contentBox">
-        <img src="https://via.placeholder.com" alt="image" />
+        <img src={image} alt="image" />
         <div className="overlay">
           <div className="description">
             <h4>How to improve your skill</h4>

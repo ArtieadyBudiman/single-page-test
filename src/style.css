@@ -1,0 +1,20 @@
+h1,
+p {
+  font-family: Lato;
+}
+/* Navbar Area */
+.buttonUpload {
+  display: flex;
+  color: white;
+}
+
+.userProfile {
+  width: 40px;
+  height: 40px;
+}
+
+/* Breadcrumb Area */
+.breadWrapper {
+  padding: 5px 12px 7px 12px;
+  border-bottom: 1px solid #dee2e6;
+}

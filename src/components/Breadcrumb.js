@@ -3,7 +3,7 @@ import { Breadcrumb } from 'react-bootstrap';
 
 const BreadcrumbNav = () => {
   return (
-    <div className="breadCrumb d-flex justify-content-center">
+    <div className="breadCrumb d-flex justify-content-center bg-white">
       <div className="breadWrapper col-11">
         <div className="breadcrumb mb-0">
           <Breadcrumb.Item href="#">Video</Breadcrumb.Item>

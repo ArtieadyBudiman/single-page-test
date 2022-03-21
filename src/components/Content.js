@@ -1,17 +1,21 @@
 import React from 'react';
-import image from './../..assets/img-1.jpg';
+// import image from './../assets/image.jpg';
 
 const Content = () => {
   return (
     <>
       <div className="contentBox">
-        <img src={image} alt="image" />
+        <img
+          className="p-0"
+          src="https://raw.githubusercontent.com/ArtieadyBudiman/single-page-test/master/src/assets/img-5.jpg"
+          alt="image"
+        />
         <div className="overlay">
-          <div className="description">
-            <h4>How to improve your skill</h4>
-            <div className="detail">
+          <div className="description d-flex flex-column mx-2 text-white w-100">
+            <h5>How to improve your skill</h5>
+            <div className="detail d-flex justify-content-between">
               <span className="name">Waseem Ashad</span>
-              <span className="engagement">12345 Views</span>
+              <span className="engagement text-end">12345 Views</span>
             </div>
           </div>
         </div>

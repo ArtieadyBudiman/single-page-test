@@ -1,17 +1,9 @@
 import React from 'react';
-import {
-  Container,
-  Navbar,
-  Nav,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-} from 'react-bootstrap';
+import { Container, Navbar, Form, FormControl, Button } from 'react-bootstrap';
 
 const NavbarComponent = () => {
   return (
-    <div className="d-flex justify-content-center border border-bottom-1">
+    <div className="d-flex bg-white justify-content-center border border-bottom-2 sticky-top">
       {/* <h1>Hello StackBlitz!</h1>
       <p>Start editing to see some magic happen :)</p> */}
       <Navbar className="col-11" expand="lg">
@@ -22,7 +14,7 @@ const NavbarComponent = () => {
               <span className="fw-light text-gray">Network</span>
             </h3>
           </Navbar.Brand>
-          <Form className="col-5 d-flex border border-1">
+          <Form className="col-5 d-flex border border-">
             <FormControl
               type="search"
               placeholder="Find"
@@ -38,12 +30,15 @@ const NavbarComponent = () => {
             <span>Upload</span>
           </button>
           <div className="userSection d-flex align-items-center text-end">
-            <div className="userProfile text-center bg-primary rounded-circle me-3">
-              <span className="material-icons text-white">person</span>
+            <div className="userProfile d-flex align-items-center bg-primary rounded-circle me-3">
+              <span className="material-icons text-white mx-auto">person</span>
             </div>
             <div className="userName text-start">
               <p className="mb-0 fw-bold text-gray">Waseemmmmmm</p>
               <p className="mb-0 text-gray">Arshanmmmmm</p>
+              <span className="position-absolute top-0 mt-3 ms-2 start-100 translate-middle badge rounded-pill bg-danger">
+                5<span class="visually-hidden">unread messages</span>
+              </span>
             </div>
           </div>
         </Container>

@@ -7,7 +7,7 @@ const Sugest = (props) => {
       <Row className="col-12 align-items-center m-0">
         <Col className="col-4 d-flex justify-content-end">
           <div className="icon d-flex align-items-center border rounded-circle">
-            <span class="material-icons mx-auto">{props.icon}</span>
+            <span className="material-icons mx-auto">{props.icon}</span>
           </div>
         </Col>
         <Col className="col-8 text-start">

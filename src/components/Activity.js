@@ -2,9 +2,9 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import ActivityList from './ActivityList';
 
-const Activity = () => {
+const Activity = (props) => {
   return (
-    <div className="activity pt- pb-4">
+    <div className="activity pt-5 pb-4">
       <Row className="activityHeader">
         <Col className="col-4">
           <h4>Activity</h4>
@@ -13,11 +13,7 @@ const Activity = () => {
       </Row>
       <Row>
         <Col>
-          <ActivityList />
-          <ActivityList />
-          <ActivityList />
-          <ActivityList />
-          <ActivityList />
+          <ActivityList data={props.data}/>
         </Col>
       </Row>
     </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import ChannelList from './ChannelList';
 
-const Channel = () => {
+const Channel = (props) => {
   return (
     <div className="channel pt-5 pb-4">
       <Row className="channelHeader">
@@ -12,14 +12,14 @@ const Channel = () => {
         <Col className="col-8 text-end">View All Channel</Col>
       </Row>
       <div className="channelList">
+        <ChannelList data={props.data}/>
+        {/* <ChannelList />
         <ChannelList />
         <ChannelList />
         <ChannelList />
         <ChannelList />
         <ChannelList />
-        <ChannelList />
-        <ChannelList />
-        <ChannelList />
+        <ChannelList /> */}
       </div>
     </div>
   );

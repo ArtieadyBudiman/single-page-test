@@ -13,13 +13,6 @@ const Channel = (props) => {
       </Row>
       <div className="channelList">
         <ChannelList data={props.data}/>
-        {/* <ChannelList />
-        <ChannelList />
-        <ChannelList />
-        <ChannelList />
-        <ChannelList />
-        <ChannelList />
-        <ChannelList /> */}
       </div>
     </div>
   );

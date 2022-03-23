@@ -1,10 +1,7 @@
 import React from 'react';
 
 const Content = (props) => {
-  // const loading = props.data.loading;
-  // console.log(loading);
-  // const data = props.data.data;
-  console.log(props.data);
+ 
   return (
     <>
       {props.data.data.slice(0, 5).map((data, index) => {

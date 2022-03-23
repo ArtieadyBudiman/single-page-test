@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import {
-  Container,
+  
   Navbar,
   Form,
   FormControl,
@@ -17,7 +17,7 @@ const NavbarComponent = () => {
   const handleShow = () => setShow(true);
 
   return (
-    <div className="d-flex bg-white justify-content-center border border-bottom-2  sticky-top">
+    <div className="d-flex bg-white justify-content-center border border-bottom-2 shadow-sm sticky-top">
       <Navbar className="col-sm-11">
         <div className="container mx-0">
           <Navbar.Brand href="#">

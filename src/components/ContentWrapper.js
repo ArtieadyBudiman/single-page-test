@@ -41,8 +41,6 @@ const ContentWrapper = () => {
     // eslint-disable-next-line
   }, []);
 
-  console.log(data);
-
   return (
     <div className="content pb-5">
       <div className="breadcrumb-section">
